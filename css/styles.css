@@ -5018,3 +5018,13 @@ td:last-child {
 		font-size: 2.0rem;
 	}
 }
+
+.mobile-center {
+	justify-self: center;
+}
+
+@media (min-width: 430px) {
+	.mobile-center {
+		justify-self: left;
+	}
+}
