@@ -5049,12 +5049,28 @@ td:last-child {
 	}
 }
 
-.mobile-center {
+.mobile-center.after-cards {
 	justify-self: center;
+	display: none;
 }
 
-@media (min-width: 450px) {
-	.mobile-center {
-		justify-self: left;
+.mobile-center.before-cards {
+	display: none;
+	justify-self: left;
+}
+
+@media (min-width: 1201px) {
+	.mobile-center.before-cards {
+		display: block;
+	}
+}
+
+@media (max-width: 1200px) {
+	.mobile-center.after-cards {
+		display: block;
+	}
+
+	.s-clients__list {
+		margin-top: 5%;
 	}
 }
