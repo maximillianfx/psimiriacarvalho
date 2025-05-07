@@ -5082,7 +5082,7 @@ td:last-child {
 }
 
 .mobile-center.after-cards {
-	justify-self: center;
+	text-align: center;
 	display: none;
 }
 
