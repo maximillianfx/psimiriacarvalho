@@ -4820,7 +4820,7 @@ td:last-child {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 400ms cubic-bezier(.81, 0, 0, .99);
-	font-size: x-large;
+	font-size: 2rem;
 }
 
 .sub-list.open {
