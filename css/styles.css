@@ -4960,17 +4960,17 @@ td:last-child {
 	}
 }
 
+.text-lead {
+	font-size: 2.0rem;
+	color: ghostwhite;
+}
+
 .btn-cta-lead {
 	height: auto;
 	width: auto;
 	font-size: 0.8rem;
 	font-weight: 600;
 	margin-bottom: 0;
-}
-
-.text-lead {
-	font-size: 2.0rem;
-	color: ghostwhite;
 }
 
 @media (min-width: 1001px) {
@@ -4983,7 +4983,7 @@ td:last-child {
 	.btn-cta-lead {
 		height: auto;
 		width: auto;
-		font-size: 0.9rem;
+		font-size: 1.3rem;
 	}
 }
 
@@ -4991,7 +4991,7 @@ td:last-child {
 	.btn-cta-lead {
 		height: auto;
 		width: auto;
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 }
 
@@ -5023,7 +5023,7 @@ td:last-child {
 	justify-self: center;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 450px) {
 	.mobile-center {
 		justify-self: left;
 	}
