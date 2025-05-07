@@ -4933,7 +4933,7 @@ td:last-child {
 	white-space: pre-wrap;
 	height: auto;
 	width: auto;
-	line-height: normal;
+	line-height: line-height: calc(var(--btn-height) - 40px);;
 	margin-top: 5%;
 
 }
@@ -4952,7 +4952,7 @@ td:last-child {
 	border-radius: 40px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 350px) {
 	.btn--primary.btn-doubts {
 		line-height: calc(var(--btn-height) - 4px);
 	}
@@ -4961,7 +4961,7 @@ td:last-child {
 .btn-cta-lead {
 	height: auto;
 	width: auto;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 	margin-bottom: 0;
 }
@@ -4974,6 +4974,14 @@ td:last-child {
 @media (min-width: 1001px) {
 	.right-aligned {
 		justify-items: end;
+	}
+}
+
+@media (min-width: 300px) {
+	.btn-cta-lead {
+		height: auto;
+		width: auto;
+		font-size: 0.9rem;
 	}
 }
 
