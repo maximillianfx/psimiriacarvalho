@@ -96,6 +96,8 @@
 	--font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
+@font-face { font-family: Nats; src: url('fonts/Nats'); }
+
 /* -------------------------------------------------------------------
  * ## colors
  * ------------------------------------------------------------------- */
